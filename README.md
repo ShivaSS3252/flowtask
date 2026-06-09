@@ -2,15 +2,11 @@
 
 A full-stack task management application with JWT authentication, built with NestJS, React, TypeScript, and MongoDB.
 
-**Live Demo:** _coming soon_
+**Live Demo:** https://flowtask-plum.vercel.app
 
-**Video Walkthrough:** [Watch on Loom](https://www.loom.com/share/22db8934749e4d939d6c603f006b50a8)
+**API:** https://flowtask-byei.onrender.com
 
----
-
-## Demo
-
-[▶ Watch Demo on Loom](https://www.loom.com/share/22db8934749e4d939d6c603f006b50a8)
+**Video Walkthrough:** [▶ Watch on Loom](https://www.loom.com/share/22db8934749e4d939d6c603f006b50a8)
 
 ---
 
@@ -62,7 +58,13 @@ flowtask/
 
 ```bash
 cd backend
+
+# Mac/Linux
 cp .env.example .env
+
+# Windows
+copy .env.example .env
+
 # Edit .env — set MONGODB_URI and JWT_SECRET
 npm install
 npm run start:dev
@@ -74,7 +76,13 @@ API runs at `http://localhost:3000`
 
 ```bash
 cd frontend
+
+# Mac/Linux
 cp .env.example .env
+
+# Windows
+copy .env.example .env
+
 # Edit .env — set VITE_API_URL=http://localhost:3000
 npm install
 npm run dev
@@ -94,7 +102,7 @@ App runs at `http://localhost:5173`
 | `MONGODB_URI` | MongoDB connection string |
 | `JWT_SECRET` | Secret key for signing JWT tokens |
 | `JWT_EXPIRES_IN` | Token expiry (default: 7d) |
-| `FRONTEND_ORIGIN` | Frontend URL for CORS (default: http://localhost:5173) |
+| `FRONTEND_ORIGIN` | Frontend URL for CORS |
 
 Generate a secure JWT secret:
 ```bash
