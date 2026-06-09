@@ -4,11 +4,13 @@ A full-stack task management application with JWT authentication, built with Nes
 
 **Live Demo:** _coming soon_
 
+**Video Walkthrough:** [Watch on Loom](https://www.loom.com/share/22db8934749e4d939d6c603f006b50a8)
+
 ---
 
-## Screenshots
+## Demo
 
-> Login page with animated branding panel and dark amber theme.
+[▶ Watch Demo on Loom](https://www.loom.com/share/22db8934749e4d939d6c603f006b50a8)
 
 ---
 
